@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Your Name</title>
+  <meta name="description" content="Learn about Your Name, a front-end developer who builds accessible, responsive and semantic web experiences.">
+  <meta name="author" content="Your Name">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="canonical" href="https://example.com/about.html">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- <a class="logo" href="index.html" aria-label="Your Name home">YN</a> -->
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">About me</p>
+        <h1>Developer focused on useful, inclusive web experiences.</h1>
+        <p>I enjoy turning ideas into simple interfaces that are structured, responsive and easy to use.</p>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="story-title">
+      <div class="container content-grid">
+        <article>
+          <h2 id="story-title">My approach</h2>
+          <p>I start with HTML that describes the meaning of the content. Then I use CSS for presentation and JavaScript only when interaction needs it.</p>
+          <p>This approach keeps websites understandable, progressively enhanced and easier to maintain.</p>
+        </article>
+
+        <aside class="info-panel" aria-labelledby="principles-title">
+          <h2 id="principles-title">Development principles</h2>
+          <ul>
+            <li>Semantic-first markup</li>
+            <li>Keyboard accessibility</li>
+            <li>Responsive by default</li>
+            <li>Performance-conscious assets</li>
+            <li>Clear content hierarchy</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title">Skills</h2>
+        <div class="skill-grid">
+          <article class="card"><h3>HTML5</h3><p>Semantic structure, forms and accessible landmarks.</p></article>
+          <article class="card"><h3>CSS3</h3><p>Flexbox, Grid, responsive design and modern layouts.</p></article>
+          <article class="card"><h3>JavaScript</h3><p>DOM manipulation, events and client-side interactions.</p></article>
+          <article class="card"><h3>Accessibility</h3><p>WCAG-aware patterns, keyboard support and screen-reader-friendly content.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year></span> Built with semantic HTML5.</p>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Your Name</title>
+  <meta name="description" content="Selected web development projects by Your Name, including accessible HTML, responsive CSS and JavaScript applications.">
+  <meta name="author" content="Your Name">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="canonical" href="https://example.com/projects.html">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- <a class="logo" href="index.html" aria-label="Your Name home">YN</a> -->
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Selected projects</h1>
+        <p>A few examples of projects built with structure, usability and responsive behavior in mind.</p>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title" class="visually-hidden">Project list</h2>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">01</div>
+            <div>
+              <p class="tag">HTML5 • Accessibility</p>
+              <h3>Accessible Portfolio</h3>
+              <p>A semantic multi-page portfolio with keyboard-friendly navigation, accessible forms and search-friendly metadata.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>HTML5</li><li>CSS3</li><li>WCAG</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">02</div>
+            <div>
+              <p class="tag">CSS3 • Responsive</p>
+              <h3>Responsive Dashboard</h3>
+              <p>A responsive dashboard concept using CSS Grid and Flexbox to organize content across screen sizes.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>CSS Grid</li><li>Flexbox</li><li>Media Queries</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">03</div>
+            <div>
+              <p class="tag">JavaScript • DOM</p>
+              <h3>Task Manager</h3>
+              <p>A client-side task manager demonstrating DOM updates, event handling, filtering and local persistence.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>JavaScript</li><li>DOM</li><li>localStorage</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number" aria-hidden="true">04</div>
+            <div>
+              <p class="tag">Performance • SEO</p>
+              <h3>Fast Landing Page</h3>
+              <p>A lightweight landing page built without external UI dependencies, keeping markup and assets easy to audit.</p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Semantic HTML</li><li>SEO</li><li>Performance</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year></span>  Built with semantic HTML5.</p>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

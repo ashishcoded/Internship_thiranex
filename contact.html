@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | </title>
+  <meta name="description" content="Contact  about front-end development, accessible websites and responsive web projects.">
+  <meta name="author" content="Ashish">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="canonical" href="https://example.com/contact.html">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- <a class="logo" href="index.html" aria-label="Your Name home">YN</a> -->
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <header class="page-header">
+      <div class="container narrow">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Let's talk about your project.</h1>
+        <p>Fill out the form below. Every field is labelled and the form can be completed entirely with a keyboard.</p>
+      </div>
+    </header>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container content-grid">
+        <div>
+          <h2 id="contact-title">Contact form</h2>
+          <p id="form-help">Required fields are marked with an asterisk.</p>
+
+          <form id="contact-form" action="#" method="post" novalidate aria-describedby="form-help">
+            <div class="form-group">
+              <label for="name">Full name <span aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required aria-required="true">
+              <p class="field-error" id="name-error"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email address <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required aria-required="true">
+              <p class="field-error" id="email-error"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject <span aria-hidden="true">*</span></label>
+              <input id="subject" name="subject" type="text" required aria-required="true">
+              <p class="field-error" id="subject-error"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="7" minlength="10" required aria-required="true"></textarea>
+              <p class="field-error" id="message-error"></p>
+            </div>
+
+            <button class="button" type="submit">Send message</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="info-panel" aria-labelledby="details-title">
+          <h2 id="details-title">Contact details</h2>
+          <address>
+            <p><strong>Email:</strong><br><a href="mailto:creative.ashi90@gmail.com">creative.ashi90@gmail.com</a></p>
+            <p><strong>Location:</strong><br>Available remotely</p>
+          </address>
+          <p>I aim to reply to messages within a reasonable time.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year></span> Built with semantic HTML5.</p>
+      <nav aria-label="Footer navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
